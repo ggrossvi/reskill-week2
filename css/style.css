@@ -40,10 +40,16 @@ html {
 
 
 .top-navigation-links a {
-   text-decoration: none;
+    text-decoration: none;
     color: black;
     display: flex;
     gap: 1em;
+}
+
+.footer p {
+    text-decoration: none;
+    color: black;
+    display: flex; 
 }
 
 .top-navigation-right img {
@@ -116,4 +122,18 @@ html {
     border-radius: 20px;
     
 }
+
+ .grid-wrapper{
+      display:grid;
+      /* grid-template-columns:1fr 1fr 1fr;*/
+      grid-template-columns:repeat(4, 1fr);
+      grid-gap:.25em;
+      /* grid-auto-rows:100px; */
+      grid-auto-rows: minmax(10px, auto);
+    }
+
+ .grid-wrapper > div{
+      background:#eeee;
+      padding:1em;
+    }
 
