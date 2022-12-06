@@ -163,3 +163,26 @@ html {
     /* grid-auto-rows:100px; */
     grid-auto-rows: minmax(10px, auto);
 }
+
+.card {
+  width: 100%;
+  border: 1px solid #7e7195;
+  border-radius: .5rem;
+  background: white;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
+
+.card div {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card p {
+  font-weight: 400;
+  text-align: left;
+}
+
+
