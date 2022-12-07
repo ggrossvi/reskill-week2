@@ -2,7 +2,7 @@
 
 * {
   padding: 0;
-  margin: 50;
+  margin: 60;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -18,11 +18,29 @@ html {
 
 img { 
   max-width: 100%;
-  padding: 10;
+  padding: 20;
   display: block;
 }
 
+@media screen and (max-width: 600px){
+  landingpage-body h1 {
+    font-size: 2.75rem;
+    display: flex;
+  }
 
+  landingpage-body landingpage-body-left landingpage-body-right {
+    display: flex;
+  }
+
+  .top-navigation{
+    display: flex;
+    gap: 2em;   
+ }
+ .container {
+    padding: 2em;
+    display: flex;
+}
+}
 
 .top-navigation {
     display: flex;
@@ -40,7 +58,6 @@ img {
 .top-navigation-links {
     display: flex;
     gap: 2em;
-
 }
 
 
@@ -118,8 +135,9 @@ img {
 }
 
 .landingpage-body-left p {
-    width: 560px;
-    font-size: 18px;
+    
+    display: flex;
+    font-size: 20px;
     line-height: 32px;
 }
 
